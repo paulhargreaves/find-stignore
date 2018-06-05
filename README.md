@@ -30,6 +30,11 @@ Usage of ./find-stignore:
   -url string
         The host URL. Do not attempt to use this with a 'remote' Syncthing server since it expects to see the local filesystem that matches what syncthing sees. (default "http://localhost:8384")
 ```
+
+## Installation
+
+You'll need to download and then use go build should create yourself an executable.
+
 ## Examples
 
 No files are being ignored on this folder.
