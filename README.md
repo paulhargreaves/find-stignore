@@ -2,6 +2,7 @@
 
 Tested on Linux.
 Not tested on Windows - no reason to suspect it won't work.
+Not particularly RAM efficient.
 
 A simple tool that you compile and run on a syncthing host.
 It only uses read-only API calls and local directory reads so is
@@ -33,7 +34,7 @@ Usage of ./find-stignore:
 
 ## Installation
 
-You'll need to download and then use go build should create yourself an executable.
+You'll need to download and then use go build should create an executable.
 
 ## Examples
 
