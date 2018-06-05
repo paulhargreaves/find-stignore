@@ -50,6 +50,7 @@ Show the hidden config files that syncthing ignores.The reason for this - the fi
 $ ./find-stignore --apikey xtEitme[snip]pn --folderid 6t6j[snip]g-fyb --showallconfig
 /media/syncthing/Laptop-Backup/.stfolder
 /media/syncthing/Laptop-Backup/.stignore
+$
 ```
 
 Add a file that is being ignored, then re-run:
@@ -58,12 +59,14 @@ Add a file that is being ignored, then re-run:
 $ touch /media/syncthing/Laptop-Backup/Downloads/.DS_Store
 $ ./find-stignore --apikey xtEitme[snip]pn --folderid 6t6j[snip]g-fyb
 /media/syncthing/Laptop-Backup/Downloads/.DS_Store
+$
 ```
 
 And now re-runing using print0
 ```
 $ ./find-stignore --apikey xtEitme[snip]pn --folderid 6t6j[snip]g-fyb -print0 | xargs -0 echo
 /media/syncthing/Laptop-Backup/Downloads/.DS_Store
+$
 ```
 
 If you do decide to change that echo to an rm, then *please* run first with an echo, make sure the entire output is what you expect. I also *strongly* recommend you pause syncing the folder, and have a very recent backup.
