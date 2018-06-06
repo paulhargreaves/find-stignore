@@ -1,7 +1,6 @@
 # find-stignore
 
-Tested on Linux.
-Not tested on Windows - no reason to suspect it won't work.
+Tested on Linux and Windows.
 Not particularly RAM efficient.
 
 A simple tool that you compile and run on a syncthing host.
@@ -34,7 +33,8 @@ Usage of ./find-stignore:
 
 ## Installation
 
-You'll need to download and then use go build should create an executable.
+You'll need to download and then use go build to create an executable.
+Or just download the "find-stignore" (linux x64) or "find-stignore.exe" (windows x64)
 
 ## Examples
 
