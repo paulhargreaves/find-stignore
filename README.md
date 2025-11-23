@@ -1,6 +1,7 @@
 # find-stignore
 
 (2025 NOTE) This no longer works as-is. The database format in syncthing changed a while ago.
+--------- Old informatio below:
 
 Tested on Linux and Windows.
 Not particularly RAM efficient.
